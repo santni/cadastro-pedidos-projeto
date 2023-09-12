@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/index.style.css" rel="stylesheet">
+    <title>Pedidos</title>
+</head>
+
+<body>
+    <div id="tudo">
+        <div id="listarPedidos">
+            <h1>Cadastro de Pedidos</h>
+            <input type="text" id="pCliente" placeholder="Cliente"/><br>
+            <input type="number" id="pMesa" placeholder="Mesa"/><br>
+            <input type="text" id="pDescricao" placeholder="Descrição"/><br>
+
+            <button id="botaoCadastrar" onclick="criarPedidos()">Cadastrar</button>
+            <button id="botaoEditar" class="hidden" onclick="editarPedido()">
+                Editar pedido
+            </button>
+
+        </div>
+        </main>
+
+    </div>
+    <div id="div-container">
+        
+    </div>
+    <div id="contador">
+        <p id="pedidosLista"></p>
+    </div>
+</div>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
